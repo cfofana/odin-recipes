@@ -5,26 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My favorite Recipes</title>
+    <style>
+        /*  wood background with white book with recipes */
+        body {
+            font-size: 28px;
+            /* background: #166D3B; */
+            /* background-image: linear-gradient(to right, black, #166D3B); */
+            background-image: linear-gradient(to right, rgb(148, 118, 84), rgb(153, 117, 77));
+            background-position: center;
+            background-size: cover;
+            color: white;
+            height: 100vh;
+            position: relative;
+            text-align: center;
+        }
+        main {
+            text-align: center;
+            display: inline-block;
+            padding: 30px 50px 30px 50px;
+        }
+        main {
+            /* background-image: linear-gradient(to right, rgb(153, 117, 77), rgb(153, 117, 77)); */
+        }
+        ul {
+            display: inline-block;
+            padding: 50px;
+        }
+        ul li a {
+            color: white;
+        }
+        footer {
+          position: absolute; 
+          bottom: 0;
+          left: 0; 
+        }
+    </style>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <nav>
-        <ul>
-            <li><a href="recipes/benachin.html">Benachin</a></li>
-            <li><a href="recipes/akara.html">Akara</a></li>
-            <!-- <li><a href="recipes/domoda.html">Domoda</a></li> -->
-            <li><a href="recipes/fish-pie.html">Fish Pie</a></li>
-            <!-- <li><a href="recipes/fruit-desert.html">Fruit Desert</a></li>
-            <li><a href="recipes/mbahal.html">Mbahal</a></li> -->
-            <!-- <li><a href="recipes/scotch-eggs.html">Scotch Eggs</a></li> -->
-        </ul>
-    </nav>
-    <p>Attributions: </p>
-    <ul>
-        <li>Photo by Pixabay: https://www.pexels.com/photo/macro-shot-of-wooden-planks-326333/</li>
-        <li>Photo by FWStudio: https://www.pexels.com/photo/brown-wooden-parquet-flooring-129731/</li>
-        <li>Photo by Magda Ehlers: https://www.pexels.com/photo/red-wooden-surface-960137/</li>
-        <li>Photo by George Dolgikh: https://www.pexels.com/photo/red-white-and-brown-gift-boxes-1303081/</li>
-    </ul>
+    <main>
+        <h1>Odin Recipes</h1>
+            <ul>
+                <li><a href="recipes/benachin.html">Benachin</a></li>
+                <li><a href="recipes/akara.html">Akara</a></li>
+                <!-- <li><a href="recipes/domoda.html">Domoda</a></li> -->
+                <li><a href="recipes/fish-pie.html">Fish Pie</a></li>
+                <!-- <li><a href="recipes/fruit-desert.html">Fruit Desert</a></li>
+                <li><a href="recipes/mbahal.html">Mbahal</a></li> -->
+                <!-- <li><a href="recipes/scotch-eggs.html">Scotch Eggs</a></li> -->
+            </ul>
+    </main>
+
+    <!-- <footer>
+        <p>Attributions: <span>Photo by <a href="https://www.pexels.com/photo/red-white-and-brown-gift-boxes-1303081/">George Dolgikh</a></span></p>       
+    </footer> -->
 </body>
 </html>
