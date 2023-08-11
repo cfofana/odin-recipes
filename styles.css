@@ -2,9 +2,10 @@
 /*  wood background with white book with recipes */
 body {
     font-size: 44px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: url("images/restaurant.png");
     color: #FFFFFF;
-    height: 100vh;
+    max-height: 100vh;
     position: relative;
     text-align: center;
 }
