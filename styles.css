@@ -1,9 +1,9 @@
 
 /*  wood background with white book with recipes */
 body {
-    font-size: 28px;
+    font-size: 44px;
     background-image: url("images/restaurant.png");
-    color: black;
+    color: #FFFFFF;
     height: 100vh;
     position: relative;
     text-align: center;
@@ -17,8 +17,12 @@ ul {
     display: inline-block;
     padding: 50px;
 }
+ul li {
+    list-style-type: none;
+}
 ul li a {
-    color: black;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 footer {
   position: absolute; 
