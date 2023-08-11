@@ -1,0 +1,27 @@
+
+/*  wood background with white book with recipes */
+body {
+    font-size: 28px;
+    background-image: url("images/restaurant.png");
+    color: black;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+main {
+    text-align: center;
+    display: inline-block;
+    padding: 30px 50px 30px 50px;
+}
+ul {
+    display: inline-block;
+    padding: 50px;
+}
+ul li a {
+    color: black;
+}
+footer {
+  position: absolute; 
+  bottom: 0;
+  left: 0; 
+}
