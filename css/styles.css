@@ -3,23 +3,22 @@
 body {
     font-size: 44px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url("images/restaurant.png");
+    background-color: #000000;
+    background-image: url("../images/restaurant.png");
     color: #FFFFFF;
     max-height: 100vh;
-    position: relative;
     text-align: center;
 }
-main {
-    text-align: center;
-    display: inline-block;
-    padding: 30px 50px 30px 50px;
+.main-content {
+    /* padding: 30px 50px 30px 50px; */
 }
 ul {
     display: inline-block;
-    padding: 50px;
 }
+/* TO DO: USE IMAGE AS BULLETS  */
 ul li {
-    list-style-type: none;
+    list-style-type: square;
+    text-align: left;
 }
 ul li a {
     color: #FFFFFF;
@@ -29,4 +28,18 @@ footer {
   position: absolute; 
   bottom: 0;
   left: 0; 
+}
+
+/*    INDIVIDUAL PAGES    */
+.akara, .benachin, .fish-pie {
+    text-align: left;
+}
+.akara {
+    
+}
+.benachin {
+    
+}
+.fish-pie {
+    
 }
